@@ -2,7 +2,8 @@
 # The PRIMVEC block contains the lattice vectors in rows. 
 # For periodic structures, 
 # the number of atoms in the simulation cell has to be specified on the line following the keyword PRIMCOORD (the example is for 24 atoms). 
-# Note that the number 1 following the atom count is not relevant for ænet. The same comments as for the isolated structure example above apply.
+# Note that the number 1 following the atom count is not relevant for ænet. 
+# It is advisable to work with a greater number of decimals for the coordinates and atomic forces than used in the example to avoid loss of accuracy.
 
 # total energy = -147.96846840 eV
  
