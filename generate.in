@@ -1,4 +1,4 @@
-OUTPUT FeS.train
+OUTPUT FeS.train #output name from generate.in which will be used for 02-train
 
 TYPES
 2
