@@ -1,3 +1,9 @@
+# The following is an example of an XSF file of a periodic structure. 
+# The PRIMVEC block contains the lattice vectors in rows. 
+# For periodic structures, 
+# the number of atoms in the simulation cell has to be specified on the line following the keyword PRIMCOORD (the example is for 24 atoms). 
+# Note that the number 1 following the atom count is not relevant for ænet. The same comments as for the isolated structure example above apply.
+
 # total energy = -147.96846840 eV
  
 CRYSTAL
