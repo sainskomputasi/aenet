@@ -5,11 +5,13 @@ END DESCR
 
 ATOM S
 
-ENV 2
+ENV 2# A list of all atomic species that may occur in the environment of the central atom and are captured by this setup. No blank lines are allowed.
 Fe
 S
 
-RMIN 0.75d0
+RMIN 0.75d0 #the minimum distance between each atom
 
+# The following example uses a Chebyshev basis set with a cutoff of 8.0 Å for the radial expansion (expansion order 16)
+# and a cutoff of 6.5 Å for the angular expansion (expansion order 4).
 BASIS type=Chebyshev
 radial_Rc = 8.0  radial_N = 16 angular_Rc = 6.5  angular_N = 4
