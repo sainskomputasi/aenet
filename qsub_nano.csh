@@ -1,5 +1,5 @@
 #!/bin/sh -f
-#PBS -N aenet
+#PBS -N aenet-generate
 #PBS -q normal
 #PBS -l nodes=1:ppn=20
 #PBS -l walltime=23:59:59
@@ -12,13 +12,9 @@ export OMP_NUM_THREADS=1
 
 cd $PBS_O_WORKDIR
 
-#Deklarasi executable program
-ln -fs /home/u0008/AENET/src/aenet-2.0.3_20201001/bin/generate.x generate.x
-#ln -fs /home/u0008/AENET/src/aenet-2.0.3_20201001/bin/predict.x predict.x
-#ln -fs /home/u0008/AENET/src/aenet-2.0.3_20201001/bin/train.x train.x
+#Declaration of the executable program
+ln -fs /<adress the location of generate.x>/generate.x generate.x
 
 mpirun ./generate.x generate.in > generate.out
-#mpirun ./predict.x predict.in > predict.out
-#mpirun ./train.x train.in > train.out
 
 
