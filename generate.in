@@ -2,12 +2,12 @@ OUTPUT FeS.train
 
 TYPES
 2
-Fe	1.393,6079  | eV
-S   -912.735    | eV
+Fe	1.393,6079  | eV #this is based on preliminary studies, you can change it if you have better resources
+S   -912.735    | eV #this is based on preliminary studies, you can change it if you have better resources
 
 SETUPS
-Fe  Fe.fingerprint.stp
-S    S.fingerprint.stp
+Fe  Fe.fingerprint.stp #linked to the file in the same folder/branch
+S    S.fingerprint.stp #linked to the file in the same folder/branch
 
 FILES
 #number of files for database you had (ex. 7000)
