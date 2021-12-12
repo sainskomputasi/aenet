@@ -1,0 +1,34 @@
+TYPES
+2
+Ti
+O
+
+NETWORKS
+Ti  Ti.20tw-20tw.nn-02000
+O    O.20tw-20tw.nn-02000
+
+#FORCES
+
+RELAX
+method=bfgs  F_conv=1.0d-3  E_conv=1.0d-9  steps=499
+#
+#    method: optimization method (currently only BFGS)
+#    F_conv: convergence thershold for the forces
+#    E_conv: convergence threshold for the energy
+#    steps:  max. number of iterations
+
+VERBOSITY high
+
+FILES
+10
+../../../../../../Fadhil/TiO2-Chebyshev/TiO2-xsf/structure0001.xsf
+../../../../../../Fadhil/TiO2-Chebyshev/TiO2-xsf/structure0002.xsf
+../../../../../../Fadhil/TiO2-Chebyshev/TiO2-xsf/structure0003.xsf
+../../../../../../Fadhil/TiO2-Chebyshev/TiO2-xsf/structure0004.xsf
+../../../../../../Fadhil/TiO2-Chebyshev/TiO2-xsf/structure0005.xsf
+../../../../../../Fadhil/TiO2-Chebyshev/TiO2-xsf/structure0006.xsf
+../../../../../../Fadhil/TiO2-Chebyshev/TiO2-xsf/structure0007.xsf
+../../../../../../Fadhil/TiO2-Chebyshev/TiO2-xsf/structure0008.xsf
+../../../../../../Fadhil/TiO2-Chebyshev/TiO2-xsf/structure0009.xsf
+../../../../../../Fadhil/TiO2-Chebyshev/TiO2-xsf/structure0010.xsf
+
