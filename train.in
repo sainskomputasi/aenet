@@ -1,4 +1,4 @@
-TRAININGSET TiO.train 
+TRAININGSET FeS.train 
 TESTPERCENT 10
 ITERATIONS  5000
 
@@ -24,5 +24,5 @@ bfgs
 NETWORKS
 ! atom   network         hidden
 ! types  file-name       layers  nodes:activation
-  Ti     Ti.10t-10t.nn    2      10:tanh 10:tanh
-  O       O.10t-10t.nn    2      10:tanh 10:tanh
+  Fe     Fe.10t-10t.nn    2      10:tanh 10:tanh
+  S       S.10t-10t.nn    2      10:tanh 10:tanh
